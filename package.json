@@ -1,0 +1,22 @@
+{
+  "name": "HUD",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HUD",
+  "author": "osztenkurden",
+  "maintainers": [
+    "osztenkurden <osztenkurden@gmail.com>"
+  ],
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.13.3",
+    "fs": "latest",
+    "http": "latest",
+    "ip": "latest",
+    "multer": "latest",
+    "nedb": "latest",
+    "pug": "latest",
+    "request": "latest",
+    "socket.io": "^2.2.0"
+  }
+}
