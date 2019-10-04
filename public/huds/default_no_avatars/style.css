@@ -1434,41 +1434,19 @@ body {
   left: 400px;
 }
 
-.player_image_holder {
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  left: 5px;
-  background-color: var(--sub-panel-color);
-}
-
-#players_right .player_image_holder {
-  left: 330px;
-}
-
-#player_image {
-  position: relative;
-  width: 70px;
-  height: 70px;
-}
-
-#player_image.dead {
-  filter: grayscale(100%);
-}
-
 .player_section_top {
-  width: 325px;
+  width: 395px;
   height: 50%;
   position: absolute;
   background-color: var(--main-panel-color);
 }
 
 #players_left .player_section_top {
-  left: 75px;
+  left: 5px;
 }
 
 #players_right .player_section_top {
-  right: 75px;
+  right: 5px;
 }
 
 .player_health_bar {
@@ -1497,7 +1475,7 @@ body {
 }
 
 #players_right .player_health {
-  left: 285px;
+  right: 0px;
 }
 
 #player_health_text {
@@ -1555,7 +1533,7 @@ body {
 }
 
 #players_left .player_weapon_primary {
-  left: 223px;
+  left: 293px;
 }
 
 #players_right .player_weapon_primary {
@@ -1587,7 +1565,7 @@ body {
 }
 
 .player_section_bottom {
-  width: 325px;
+  width: 395px;
   height: 50%;
   position: absolute;
   top: 50%;
@@ -1595,7 +1573,7 @@ body {
 }
 
 #players_left .player_section_bottom {
-  left: 75px;
+  left: 5px;
 }
 
 #players_right .player_section_bottom {
@@ -1614,7 +1592,7 @@ body {
 }
 
 #players_right .player_armor {
-  left: 295px;
+  left: 365px;
 }
 
 #player_armor_image {
@@ -1634,7 +1612,7 @@ body {
 }
 
 #players_right .player_bomb_kit {
-  left: 268px;
+  left: 338px;
 }
 
 #player_bomb_kit_image {
@@ -1653,7 +1631,7 @@ body {
 }
 
 #players_right .player_current_money {
-  left: 195px;
+  left: 265px;
 }
 
 #player_current_money_text {
@@ -1687,7 +1665,7 @@ body {
 }
 
 #players_right .player_round_kills {
-  left: 160px;
+  left: 230px;
 }
 
 #player_skull {
@@ -1733,7 +1711,7 @@ body {
 }
 
 #players_left .player_nades {
-  left: 165px;
+  left: 235px;
 }
 
 #players_right .player_nades {
@@ -1804,7 +1782,7 @@ body {
 }
 
 #players_left .player_weapon_secondary {
-  left: 263px;
+  left: 333px;
 }
 
 #players_right .player_weapon_secondary {
