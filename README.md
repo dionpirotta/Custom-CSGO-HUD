@@ -99,3 +99,9 @@ It might be useful for bigger streaming workspaces, like for setups with differe
 ## Credits
 
 [osztenkurden](https://github.com/osztenkurden) - Original Repo Creator
+
+## License
+
+This project is Licensed under GPL-3. Any changesd to this project need to be made open source (among other things). Distribution is allowed, but must be open (not closed or behind paywall).
+
+The section above is not legal advice and is not legally binding. See the LICENSE file in the repository for the full license.
