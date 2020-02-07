@@ -327,7 +327,8 @@ function updateStateOver(phase, round, previously) {
     if (round.bomb == null) {
       if (round.win_team == "T") {
         if (checkPrev(previously, "live") || checkPrev(previously, "bomb")) {
-          $("#round_timer_text").removeClass("flash");
+          if ($("#round_timer_text").hasClass("animated")) $("#round_timer_text").removeClass("animated");
+          if ($("#round_timer_text").hasClass("flash")) $("#round_timer_text").removeClass("flash");
           animateRoundTimer("players_eliminated_T", false);
         }
       } else if (round.win_team == "CT") {
@@ -348,6 +349,11 @@ function updateStateOver(phase, round, previously) {
       }
     } else if (round.bomb == "planted") {
       if (checkPrev(previously, "live")) animateRoundTimer("players_eliminated_T", false);
+      if (checkPrev(previously, "defuse")) {
+        if ($("#round_timer_text").hasClass("animated")) $("#round_timer_text").removeClass("animated");
+        if ($("#round_timer_text").hasClass("flash")) $("#round_timer_text").removeClass("flash");
+        animateRoundTimer("players_eliminated_T", false);
+      }
     } else if (round.bomb == "exploded") {
       if (checkPrev(previously, "bomb")) {
         if ($("#round_timer_text").hasClass("animated")) $("#round_timer_text").removeClass("animated");
