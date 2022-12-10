@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "body-parser": "latest",
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "fs": "latest",
     "http": "latest",
     "ip": "latest",
